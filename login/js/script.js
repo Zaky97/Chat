@@ -88,7 +88,7 @@ import { firebaseConfig } from '../../data/js/config.js';
     onAuthStateChanged(auth, (user) => {
         container.innerHTML = `${lang.preparing}...`;
         if(user) {
-            window.location.href = window.location.origin + '/dashboard/';
+            window.location.href = window.location.origin + '/Chat/dashboard/';
         } else {
             loginCard();
         }
