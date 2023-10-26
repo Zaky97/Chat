@@ -2,6 +2,8 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebas
 import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js";
 import { firebaseConfig } from '../../data/js/config.js';
 
+const app = initializeApp(firebaseConfig);
+
 const isAccountExist = async(acc) => {
     const app = initializeApp(firebaseConfig);
     const db = getDatabase(app);
