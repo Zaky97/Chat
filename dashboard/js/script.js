@@ -23,6 +23,7 @@ import { getID } from "../../data/js/authState.js";
         const header = document.createElement('header');
         header.innerHTML = (`
             <div class="title-bar">
+                <img src="logo.png" height="80px" width="80px"/> 
                 <h1>XChat</h1>
                 <div class="buttons">
                     <button class="action" id="icon-search"><i class="fa-solid fa-search"></i></button>
