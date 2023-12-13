@@ -1,25 +1,9 @@
 export const firebaseConfig = {
-    apiKey: "AIzaSyAn-pknrkw-aZJLSUtBo1toJ-nOsVSjYXw",
-    authDomain: "chat-923ba.firebaseapp.com",
-    databaseURL: "https://chat-923ba-default-rtdb.asia-southeast1.firebasedatabase.app/",
-    projectId: "chat-923ba",
-    storageBucket: "chat-923ba.appspot.com",
-    messagingSenderId: "359173041598",
-    appId: "1:359173041598:web:d28815db7431f81c8f9def",
-    measurementId: "G-L3EXLGFHXH"
+    apiKey: "AIzaSyAnhTI1n7uBrpiI0Ony9K9S9sxTnwgyOm0",
+    authDomain: "zaky-ec244.firebaseapp.com",
+    databaseURL: "https://zaky-ec244-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    projectId: "zaky-ec244",
+    storageBucket: "zaky-ec244.appspot.com",
+    messagingSenderId: "63773619203",
+    appId: "1:63773619203:web:6740251ebae33ba126ca36",
 };
-
-// apiKey: "AIzaSyAn-pknrkw-aZJLSUtBo1toJ-nOsVSjYXw",
-
-// authDomain: "chat-923ba.firebaseapp.com",
-
-// projectId: "chat-923ba",
-
-// storageBucket: "chat-923ba.appspot.com",
-
-// messagingSenderId: "359173041598",
-
-// appId: "1:359173041598:web:d28815db7431f81c8f9def",
-
-// measurementId: "G-L3EXLGFHXH"
- 
