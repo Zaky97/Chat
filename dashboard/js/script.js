@@ -23,13 +23,15 @@ import { getID } from "../../data/js/authState.js";
         const header = document.createElement('header');
         header.innerHTML = (`
             <div class="title-bar">
-                <img src="logo.png" height="80px" width="80px"/> 
+            <div>    
+            <img src="logo.png" height="40px" width="40px"/> 
                 <h1>XChat</h1>
+            </div>
+    
                 <div class="buttons">
                     <button class="action" id="icon-search"><i class="fa-solid fa-search"></i></button>
                     <button class="action" id="icon-setting"><i class="fa-solid fa-gear"></i></button>
                 </div>
-            </div>
             <div class="menu-bar">
                 <button id="changeChat"><i class="fa-duotone fa-comments"></i> ${lang.chats}</button>
                 <button id="changeRandom"><i class="fa-duotone fa-shuffle"></i> ${lang.random}</button>
